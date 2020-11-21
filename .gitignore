@@ -1,0 +1,6 @@
+.vscode/
+__pycache__/
+work.txt
+test.py
+*.swp
+images/*.jpeg

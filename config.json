@@ -1,0 +1,12 @@
+{
+    "telegram_token"       : "",
+    "virus_total_token"    : "",
+    "shodan_token"         : "",
+    "ipinfo_token"         : "",
+    "path_to_cowrie"	   : "",
+    "path_to_log_dir"      : "",
+    "path_to_download_dir" : "",
+    "path_to_tty_dir"	   : "",
+    "path_to_time_slices"  : "",
+    "valid_users"          : []
+}
