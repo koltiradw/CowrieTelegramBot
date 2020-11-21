@@ -14,6 +14,7 @@ import stats.cowriestats
 import stats.time_slice
 import inline
 import requests
+import time
 
 
 conf        = config.Config("../config.json")
@@ -81,14 +82,14 @@ def event_handler(message):
         mem_usage_handler(message, collect_obj)
 
     if message.text == "/start_cowrie":
-        inline_mode_handler("/run ../bin/cowrie start", message)
+        inline_mode_handler("/run ../../bin/cowrie start", message)
         bot.send_message(
                 message.chat.id,
                 "PID of cowrie: " + str(stats.time_slice.get_pid()) + "\n"
                 )
 
     if message.text == "/stop_cowrie":
-        inline_mode_handler("/run ../bin/cowrie stop", message)
+        inline_mode_handler("/run ../../bin/cowrie stop", message)
 
 def cowrie_stats_handler(message):
     cowrie_stats_info = stats.cowriestats.get_cowrie_stats()
