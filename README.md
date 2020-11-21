@@ -5,6 +5,4 @@ Telegram bot for managing and collecting statistics from Cowrie.
 - Use pip install -r requirements.txt for install required dependencies.
 - In the config.json file, fill in the required fields.
 # Bot functionality manual
--Main menu:
-
-![](https://github.com/koltiradw/CowrieTelegramBot/main/raw/docs/MainMenu.PNG)
+![Main menu](https://github.com/koltiradw/CowrieTelegramBot/main/raw/docs/MainMenu.PNG)
