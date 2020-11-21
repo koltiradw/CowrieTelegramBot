@@ -6,4 +6,4 @@ Telegram bot for managing and collecting statistics from Cowrie.
 - In the config.json file, fill in the required fields.
 # Bot functionality manual
 -Main menu:
-(https://github.com/{koltiradw}/{CowrieTelegramBot}/raw/{main}/{docs/MainMenu.PNG)
+(https://github.com/koltiradw/CowrieTelegramBot/raw/main/docs/MainMenu.PNG)
