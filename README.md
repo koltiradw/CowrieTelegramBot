@@ -1,3 +1,5 @@
+# Disclaimer
+This project is in beta testing! If during use there are problems or the functionality you need is not there, then create an issue. Thanks for using!
 # CowrieTelegramBot
 Telegram bot for managing and collecting statistics from Cowrie.
 # Instalation 
