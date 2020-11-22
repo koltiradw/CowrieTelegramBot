@@ -2,7 +2,7 @@ import plotly.express as px
 from collectors.logcollector import Collector
 import collections
 
-PATH_TO_PHOTO = '../images/protocols.jpeg'
+PATH_TO_PHOTO = 'images/protocols.jpeg'
 
 def create_hist(x_list: list, y_list: list):
     fig = px.bar(x = x_list, y = y_list, labels = dict(x = "Protocols", y = "Amount of events"))

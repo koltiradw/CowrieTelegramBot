@@ -5,7 +5,7 @@ import os
 import json
 import subprocess
 
-PATH = "../time_slices/time_slice.json"
+PATH = "time_slices/time_slice.json"
 
 def get_pid():
     for proc in psutil.process_iter(['pid', 'name', 'username']):

@@ -3,7 +3,7 @@ from collectors.logcollector import Collector
 import collections
 import ipscan
 
-PATH_TO_PHOTO = '../images/countries.jpeg'
+PATH_TO_PHOTO = 'images/countries.jpeg'
 
 def create_hist(x_list: list, y_list: list):
     fig = px.bar(x = x_list, y = y_list, labels = dict(x = "Countries", y = "Amount of events"))

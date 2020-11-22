@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-PATH_TO_PHOTO = '../images/cpu_usage.jpeg'
+PATH_TO_PHOTO = 'images/cpu_usage.jpeg'
 
 def create_plot(common, cowrie, time):
     fig, ax = plt.subplots(1, figsize=(8, 6))

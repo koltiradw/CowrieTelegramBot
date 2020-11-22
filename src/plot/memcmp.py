@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-PATH_TO_PHOTO = '../images/mem_usage.jpeg'
+PATH_TO_PHOTO = 'images/mem_usage.jpeg'
 
 def create_plot(common, cowrie, time):
     fig = plt.figure()

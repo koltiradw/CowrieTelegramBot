@@ -218,10 +218,10 @@ def work_bot():
         bot.polling(True,False,True)
     except requests.exceptions.ReadTimeout:
         time.sleep(2)
-        init_bot()
+        work_bot()
     except requests.exceptions.ConnectionError:
         time.sleep(2)
-        init_bot()
+        work_bot()
 
 def main():
     work_bot()
