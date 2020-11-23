@@ -82,14 +82,14 @@ def event_handler(message):
         mem_usage_handler(message, collect_obj)
 
     if message.text == "/start_cowrie":
-        inline_mode_handler("/run ../../bin/cowrie start", message)
+        inline_mode_handler("/run ../bin/cowrie start", message)
         bot.send_message(
                 message.chat.id,
                 "PID of cowrie: " + str(stats.time_slice.get_pid()) + "\n"
                 )
 
     if message.text == "/stop_cowrie":
-        inline_mode_handler("/run ../../bin/cowrie stop", message)
+        inline_mode_handler("/run ../bin/cowrie stop", message)
 
 def cowrie_stats_handler(message):
     cowrie_stats_info = stats.cowriestats.get_cowrie_stats()
@@ -217,10 +217,10 @@ def work_bot():
     try:
         bot.polling(True,False,True)
     except requests.exceptions.ReadTimeout:
-        time.sleep(2)
+        time.sleep(30)
         work_bot()
     except requests.exceptions.ConnectionError:
-        time.sleep(2)
+        time.sleep(30)
         work_bot()
 
 def main():
