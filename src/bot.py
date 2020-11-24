@@ -17,7 +17,7 @@ import requests
 import time
 
 
-conf        = config.Config("../config.json")
+conf        = config.Config("config.json")
 bot         = telebot.TeleBot(conf.get_telegram_token())
 users       = conf.get_list_of_valid_users()
 collect_obj = None
@@ -215,15 +215,14 @@ def menu_handler(message):
 
 def work_bot():
     try:
-        bot.polling(True,False,True)
-    except requests.exceptions.ReadTimeout:
-        time.sleep(30)
-        work_bot()
-    except requests.exceptions.ConnectionError:
-        time.sleep(30)
+        bot.polling(none_stop=False, interval=0, timeout=20)
+    except Exception as e:
+        time.sleep(20)
         work_bot()
 
 def main():
+    bot.remove_webhook()
+
     work_bot()
 
 if __name__ == "__main__":

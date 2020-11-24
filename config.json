@@ -1,12 +1,12 @@
 {
-    "telegram_token"       : "",
-    "virus_total_token"    : "",
-    "shodan_token"         : "",
-    "ipinfo_token"         : "",
-    "path_to_cowrie"	   : "",
-    "path_to_log_dir"      : "",
-    "path_to_download_dir" : "",
-    "path_to_tty_dir"	   : "",
-    "path_to_time_slices"  : "",
-    "valid_users"          : []
+    "telegram_token"       : "1403120986:AAFSZ4vHdLwCmpKbGcdZLVnw12CFRvg2BNo",
+    "virus_total_token"    : "5658e819a3b7eeb43bdd5f29cb3c144992c7921f505f8c3c976f1679fbdcac30",
+    "shodan_token"         : "RqBbBoVrf4hHrBCRR3PrquyseJYnYLqU",
+    "ipinfo_token"         : "52c5c0fb665273",
+    "path_to_cowrie"	   : "/home/cowrie/cowrie",
+    "path_to_log_dir"      : "/home/cowrie/cowrie/var/log/cowrie/cowrie.json",
+    "path_to_download_dir" : "/home/cowrie/cowrie/var/lib/cowrie/downloads/",
+    "path_to_tty_dir"	   : "/home/cowrie/cowrie/var/lib/cowrie/tty/",
+    "path_to_time_slices"  : "/home/cowrie/cowrie/CowrieTelegramBot/time_slices/time_slice.json",
+    "valid_users"          : [ "Koltiradw", "dsilnov", "MoJl4yH", "nowwital", "kettenmorgenstern"]
 }
